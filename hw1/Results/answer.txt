@@ -1,0 +1,8 @@
+The "texture_repr_mean" representation has the smallest within-between ratio. 
+
+This is beyond my expectation since the "bow_repr" representation should actually has the gradient information within the image and can better distinguish and categroize different class. 
+
+According to my observation, the "texture_repr_mean" has the best performance since:
+
+1. The algorithm is easy to implement;
+2. Obtain the smallest within-between ratio.
